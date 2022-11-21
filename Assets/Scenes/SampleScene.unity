@@ -138,6 +138,9 @@ GameObject:
   - component: {fileID: 449958154}
   - component: {fileID: 449958160}
   - component: {fileID: 449958159}
+  - component: {fileID: 449958161}
+  - component: {fileID: 449958162}
+  - component: {fileID: 449958163}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -263,6 +266,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   age: 19
+--- !u!114 &449958161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449958153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e87bcb69e56ac444a825a416b6e28c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 10
+--- !u!114 &449958162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449958153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c73c86b17e9dd42b68de2a240436fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  year: 1972
+--- !u!114 &449958163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449958153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c18696b19335474b86f4153ea6b9a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bases: 5
+  height: 10
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
